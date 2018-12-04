@@ -9,8 +9,8 @@ public:
 	tree();
 };
 tree::tree(){
-	node* root = NULL;
-	node* current = NULL;
+	root = NULL;
+	current = NULL;
 }
 
 void tree::add_node(node *x, node *tmp){
