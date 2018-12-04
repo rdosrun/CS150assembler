@@ -2,7 +2,7 @@
 class tree
 {
 public:
-	node * root = NULL,current=NULL;
+	node * root,*current;
 	tree();
 	void add_node(node *x,node *tmp);
 	void delete_node(node & tmp);
@@ -10,8 +10,8 @@ public:
 	
 };
 tree::tree(){
-	this->root = NULL;
-	this->current = NULL;
+	this->root = new node();
+	this->current = new node();
 }
 
 void tree::add_node(node *x, node *tmp){
