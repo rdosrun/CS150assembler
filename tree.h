@@ -5,7 +5,7 @@ public:
 	void add_node(node *x,node *tmp);
 	void delete_node(node & tmp);
 	int lookup_node(node *x, string tmp);
-
+	tree();
 };
 tree::tree(){
 	node* root = NULL;
