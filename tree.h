@@ -2,15 +2,15 @@
 class tree
 {
 public:
-	node * root,current;
+	tree();
 	void add_node(node *x,node *tmp);
 	void delete_node(node & tmp);
 	int lookup_node(node *x, string tmp);
-	tree();
+	
 };
 tree::tree(){
-	root = NULL;
-	current = NULL;
+	node * root = NULL;
+	node * current = NULL;
 }
 
 void tree::add_node(node *x, node *tmp){
