@@ -2,6 +2,7 @@
 class tree
 {
 public:
+	node * root,current;
 	void add_node(node *x,node *tmp);
 	void delete_node(node & tmp);
 	int lookup_node(node *x, string tmp);
