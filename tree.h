@@ -2,7 +2,7 @@
 class tree
 {
 public:
-	node * root,*current;
+	node * root = NULL,*current=NULL;
 	tree();
 	void add_node(node *x,node *tmp);
 	void delete_node(node & tmp);
